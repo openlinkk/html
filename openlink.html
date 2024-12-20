@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านลิงกัง</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> <!-- เพิ่ม Favicon ตรงนี้ -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/black.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        .cover img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 250px;
+            padding: 15px;
+            text-decoration: none;
+            color: #333;
+            background-color: #ffffff;
+            border: 2px solid #ccc;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.2s;
+            box-sizing: border-box;
+        }
+        .links a img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .links a:hover {
+            background-color: #e0e0e0;
+            transform: translateY(-3px);
+        }
+        .social-icons img {
+            width: 40px;
+            margin: 0 10px;
+        }
+        .extra-images img {
+            width: 150px;
+            margin: 10px;
+            border-radius: 10px;
+            transform: scale(1.1);
+        }
+
+        /* ✅ Responsive Design สำหรับมือถือ */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+                margin: 10px;
+            }
+            .logo img {
+                width: 100px;
+            }
+            .links a {
+                max-width: 100%;
+                font-size: 14px;
+                padding: 12px;
+            }
+            .extra-images img {
+                width: 100px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ภาพปก (Cover Image) -->
+        <div class="cover">
+            <img src="images/ban.png" alt="Cover Image">
+        </div>
+        
+        <!-- โลโก้ร้าน -->
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Bubble Shop Logo">
+        </div>
+
+        <h1>ร้านลิงกัง</h1>
+        <p>ครบจบในร้านเดียวมีทุกอย่าง กดเกมพาสไม่ใช้ไอดีเกม เติมโรบัค รับฟาร์มแมพต่างๆ ไก่ตันหลากหลายแมพ มีแอดมินดูแลตลอดได้ไวไม่รอนานต้องร้านลิงกัง</p>
+
+        <!-- ลิงก์ปุ่มแบบใหม่ -->
+        <div class="links">
+            <a href="https://www.facebook.com/rarnlinggung">
+                <img src="images/facebookicon.png" alt="Facebook"> กดเพื่อเข้าสู่เพจหน้าร้าน
+            </a>
+            <a href="https://discord.gg/RUuEkzchh4">
+                <img src="images/game.png" alt="Review"> กดเกมพาสไม่ใช้ไอดีเกม
+            </a>
+            <a href="https://rlg.rdcw.xyz/">
+                <img src="images/web.png" alt="Messenger"> ไก่ตันหลากหลายแมพสุดคุ้ม
+            </a>
+            <a href="https://discord.gg/Q5MxgrDvQx">
+                <img src="images/rlg1.png" alt="Terms"> บริการรับฟาร์มแมพต่างๆ
+            </a>
+            <a href="https://www.facebook.com/rarnlinggung">
+                <img src="images/Rlg2.png" alt="Top-Up"> แจกไก่ตันฟรีทุกสัปดาห์
+            </a>
+            <a href="https://www.facebook.com/rarnlinggung/reviews">
+                <img src="images/rlg3.png" alt="Gamepass"> ดูรีวิวร้านได้เลยที่นี้      
+            </a>
+        </div>
+
+        <!-- ภาพเพิ่มเติมด้านล่าง -->
+        <div class="extra-images">
+            <img src="images/gamepass.jpg" alt="Extra Image 1">
+            <img src="images/robux.jpg" alt="Extra Image 2">
+            <img src="images/Fisch.png" alt="Extra Image 3">
+            <img src="images/fishman.png" alt="Extra Image 4">
+            <img src="images/farm.png" alt="Extra Image 5">
+            <img src="images/free.jpg" alt="Extra Image 6">
+        </div>
+    </div>
+</body>
+</html>
